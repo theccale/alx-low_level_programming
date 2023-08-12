@@ -1,28 +1,26 @@
-#include <stdoo
 #include <stdlib.h>
 #include <time.h>
-/**
- *main -Entry point
- *
- *Return: Always 0(Success)
- */
+/* more headers goes there */
 
+/* betty style doc for function main goes there */
 int main(void)
-{int x;
+{
+	int n;
+
 	srand(time(0));
-	x= rand() - RAND_MAX / 2;
-	printf("%d\n",x);
-	if (x > 0)
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
 	{
-		printf("%d is positive \n");
+		printf("%d is positive\n",n);
 	}
-	else if (x < 0)
+	else if (n < 0)
 	{
-                printf("%d is negative \n");
+		printf("%d is negative\n",n);
         }
-	else
+	else (n = 0)
 	{
-		printf("%d is zero \n");
-	}
-	return 0;
+		printf("%d is zero\n",n);
+        }
+	/* your code goes there */
+	return (0);
 }
