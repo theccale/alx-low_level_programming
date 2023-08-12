@@ -8,8 +8,7 @@
  */
 
 int main(void)
-{
-	int x;
+{int x;
 
 	srand(time(0));
 	x= rand() - RAND_MAX / 2;
@@ -20,7 +19,7 @@ int main(void)
 	{
 		printf("The number is positive \n");
 	}
-	else if(x < 0)
+	else if (x < 0)
 	{
 		printf("The number is negative \n");
 	}
