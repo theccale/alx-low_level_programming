@@ -7,12 +7,12 @@
  *Return: Always 0(Success)
  */
 
-int main()
+int main(void)
 {
-	int x:
+	int x;
 
-	srand(time(0)):
-	x= rand() RAND MAX / 2:
+	srand(time(0));
+	x= rand() RAND MAX / 2;
 
 	printf("%d\n",x);
 	if (x > 0)
