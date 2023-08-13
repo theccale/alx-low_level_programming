@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there
- *main - Entry point
- *Return: Always 0 (Success)
+* main - Entry point
+* Return: Always 0 (Success)
   */
 
 /* betty style doc for function main goes there */
@@ -25,6 +25,6 @@ int main(void)
 	else
 	{
 		printf("%d is zero\n", n);
-	}/* your code goes there */
+	}
 	return (0);
 }
