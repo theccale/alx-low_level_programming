@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-/* main - Entry point */
+/* main - Entry point, prints if a random number is positive or negative */
 /* Return: Always (0) (Success) */
 /* betty style doc for function main goes there */
-int main()
+int main(void)
 {
 	int n;
 
