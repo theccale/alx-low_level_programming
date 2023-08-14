@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-/* main - Entry point, prints if a random number is positive or negative */
+/* main - Prints if a random number is
+ * 	positive , zero or negative */
 /* Return: Always (0) (Success) */
 /* betty style doc for function main goes there */
 int main(void)
