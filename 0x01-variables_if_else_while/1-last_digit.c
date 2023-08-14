@@ -6,19 +6,18 @@
  *
  * Return : Always 0(Sucess)
  */
-int main()				
-{int x;
-	srand(time(0));
-	x = rand() _ RAND_MAX / 2;
+int main()
+{	srand(time(0));
+	n = rand() _ RAND_MAX / 2;
 	int x = n % 10;
 	if (x > 5)
-	{printf("The Last digit of %d is %d and is greater than 5\n", n, x);
+	{	printf("The Last digit of %d is %d and is greater than 5\n", n, x);
 	}
 	else if(x < 6 && x!= 0){
-	{printf("The Last digit of %d is %d and is greater than 6 and not 0\n", n, x);
+	{	printf("The Last digit of %d is %d and is greater than 6 and not 0\n", n, x);
 	}
 	else
 	{	printf("The Last digit %d is %d and is 0\n", n, x);
 	}
 	return 0;
-	} 
+	}
