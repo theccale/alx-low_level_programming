@@ -1,6 +1,8 @@
 #include <unistd.h>
-/* make a header file
- * that reads putchar
+/* 
+ * _putchar -writes the characte
+ * r c to stdout
+ * &c: The character to print
  * Return 0 on success
  * Rwturn 2 on failure
  */
