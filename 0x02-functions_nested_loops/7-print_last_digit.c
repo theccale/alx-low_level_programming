@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_last_digit - pront the last digit of a number
- * @n :The number to bd checked
+ * print_last_digit - print the last digit of a number
+ * @n :The number in question
  *
  * Return: value of the last digit of a mumbet
  */
@@ -12,9 +12,10 @@ int print_last_digit(int n)
 
 	if (last < 0)
 	{
-		last= last * _1;
+		last *= -1;
+
 	}
-	_putchar(last + '0');
-	_return (last);
+		_putchar(last + '0');
+		return (last);
 }
 
