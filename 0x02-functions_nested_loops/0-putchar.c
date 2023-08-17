@@ -1,9 +1,9 @@
 #include "main.h"
 
 /*
-* main - Entry point
+* main - prints "-putchar"
 *
-* _putchar : prints out _putchar
+* _putchar
 *
 * Return: Always (0)
  */
