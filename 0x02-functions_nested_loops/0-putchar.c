@@ -1,11 +1,8 @@
 #include "main.h"
-
-/*
-* main - prints "-putchar"
-*
-* _putchar
-*
-* Return: Always (0)
+/**
+ * main - Prints "-putchar" followed by a new line.
+ *
+ * Return: Always 0.
  */
 
 int main(void)
