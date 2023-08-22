@@ -28,7 +28,9 @@ void rev_string(char *s)
 	{
 		sed = s[i];
 		s[i] = *a;
-		*a = sed;
+		*a = sed;		
+		_putchar(*a);
 		a--;
 	}
+	_putchar('\n');
 }
