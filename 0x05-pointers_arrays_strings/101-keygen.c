@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 
 /**
@@ -15,9 +16,9 @@ int main(void)
         srand(time(NULL));
         for (i = 0; i < 64; i++)
         {
-                password [i] = rand() % 78 ;
-                sum += password [i] + '0';
-                printf(password [i] + '0');
+                password[i] = rand() % 78 ;
+                sum += password[i] + '0';
+                printf(password[i] + '0');
 
                 if ((2772 - sum) - '0' < 78)
                 {
