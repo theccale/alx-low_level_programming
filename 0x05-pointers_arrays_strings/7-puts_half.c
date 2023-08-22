@@ -16,14 +16,14 @@ void puts_half(char *str)
 		s++;
 	}
 
-	if (t % 2 == 1)
+	if (s % 2 == 1)
 	{
 		t = (s - 1) / 2;
 		t += 1;
 	}
 	else
 	{
-		s = t / 2;
+		t = s / 2;
 	}
 
 	for (; t < s; t++)
