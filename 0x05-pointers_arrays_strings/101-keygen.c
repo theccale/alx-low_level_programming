@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
+#include "main.h"
 
 /**
  * -keygen - generates random valid passwords
@@ -18,13 +19,13 @@ int main(void)
         {
                 password[i] = rand() % 78 ;
                 sum += password[i] + '0';
-                printf(password[i] + '0');
+                putchar(password[i] + '0');
 
                 if ((2772 - sum) - '0' < 78)
                 {
                         n = 2772 - sum - '0';
                         sum += n;
-			printf(n + '0');
+			putchar(n + '0');
                         break ;
                 }
         }       return (0);
