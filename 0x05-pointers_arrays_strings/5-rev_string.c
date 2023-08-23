@@ -8,29 +8,16 @@
   */
 void rev_string(char *s)
 {
+	char rev = s[0];
+	int counter = 0;
 	int i;
-	int c, k;
-	char *a, sed;
-
-	a = s;
-
-	while (s[c] != '\0')
+	while (s[counter] != '\0')
+	       counter++;
+	for (i = 0; i < counter; i++)
 	{
-		c++;
+		counter--;
+		rev = s[i];
+		s[i] = s[counter];
+		s[counter] = rev;
 	}
-
-	for (k = 1; k < c; k++)
-	{
-		a++;
-	}
-
-	for (i = 0; i < (c / 2); i++)
-	{
-		sed = s[i];
-		s[i] = *a;
-		*a = sed;		
-		_putchar(*a);
-		a--;
-	}
-	_putchar('\n');
 }
