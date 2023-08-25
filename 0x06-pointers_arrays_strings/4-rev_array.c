@@ -9,7 +9,7 @@
  *
  * Return: nothing.
  */
-void reverse_array(int *a, int n)(int *a, int n)
+void reverse_array(int *a, int n)
 {
 	int *p, i, aux, k;
 
