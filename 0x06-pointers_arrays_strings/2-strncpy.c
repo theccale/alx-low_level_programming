@@ -6,7 +6,6 @@
  * @dest: The string destination
  * @src: Theinput string
  * @n: the number
- *
  * Return: the string to dest
  */
 char *_strncpy(char *dest, char *src, int n)
