@@ -3,11 +3,11 @@
 
 /**
  * cap_string - capitalizes all words of a string
- * @s: The string to be changed
+ * @spt: The string to be changed
  *
  * Return: char value.
  */
-char *cap_string(char *s)
+char *cap_string(char *spt)
 {
 	int a = 0, i;
 	int spcc = 13;
