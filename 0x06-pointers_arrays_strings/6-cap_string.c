@@ -7,7 +7,7 @@
  *
  * Return: char value.
  */
-char *cap_string(char *spt)
+char *cap_string(char *s)
 {
 	int a = 0, i;
 	int spcc = 13;
