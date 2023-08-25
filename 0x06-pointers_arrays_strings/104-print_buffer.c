@@ -1,11 +1,9 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
 * print_buffer - Prints a buffer
 * @b: the buffer
 * @size: the size of the buffer
-* Return: Always 0.
 */
 void print_buffer(char *b, int size)
 {
@@ -45,4 +43,6 @@ void print_buffer(char *b, int size)
 			putchar('\n');
 			i += 10;
 		}
+
 	}
+}
