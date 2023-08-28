@@ -1,18 +1,18 @@
 #include "main.h"
-#include <stdio.h>
+
 
 /**
- * *_strncpy - copies a string
+ * _strncpy - copies a string
  * @dest: The string destination
- * @scr: The  string source
+ * @src: Theinput string
  * @n: the number
- *
  * Return: the string to dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
 	int a = 0;
 	int b = 0;
+
 	while (src[b])
 	{
 		b++;
