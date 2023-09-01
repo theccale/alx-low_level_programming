@@ -15,7 +15,7 @@ int my_root(int n, int i)
 {
 	if (n * n == i)
 		return (n);
-	if (n * n > i)
+	if (n * n <= i)
 		return (my_root(n + 1, i));
 	else
 		return (-1);
