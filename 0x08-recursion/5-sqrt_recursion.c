@@ -4,9 +4,10 @@
 
 
 /**
- * my_root: the square root fn
+ * my_root - the square root fn
  * @n: The number
  * @i: the iterator
+ * Return: Always the root
  * First define the function to use
  */
 
@@ -29,6 +30,6 @@ int _sqrt_recursion(int n)
 		return (-1);
 	if (n == 0 || n == 1)
 		return (n);
-	return (my_root(n, 2);
+	return (my_root(n, 2));
 }
 
