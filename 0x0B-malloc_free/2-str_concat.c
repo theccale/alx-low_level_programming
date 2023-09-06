@@ -29,7 +29,7 @@ char *str_concat(char *s1, char *s2)
 	while (s1[ate] != '\0')
 	{
 		conct[ate] = s1[ate];
-		i++;
+		ate++;
 	}
 
 	while (s2[aci] != '\0')
