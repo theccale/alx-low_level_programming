@@ -18,8 +18,6 @@ char *str, *virt = "";
 
 va_list others;
 
-
-
 va_start(others, format);
 
 
