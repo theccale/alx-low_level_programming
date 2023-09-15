@@ -6,7 +6,7 @@
 * print_strings - prints strings, followed by a new line.
 * @separator: The separator to use
 * @n: interger n
-* ...: other argument
+* @...: other argument
 * Return: Nil if one of the string is NULL
 */
 void print_strings(const char *separator, const unsigned int n, ...)
@@ -15,9 +15,11 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	char *sent;
 	unsigned int p;
 
-	va_start(strings, n)
-	for (p = 0; p < n; p++;)
-	{	sent = va_arg(char *,strings);
+	va_start(strings, n);
+	for (p = 0; p < n; p++)
+	{	
+		sent = va_arg(char *,strings);
+		
 		if (sent == NULL)
 			printf("(nil)");
 		else
