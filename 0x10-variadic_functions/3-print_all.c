@@ -2,6 +2,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /**
 * print_all - prints anything
@@ -14,6 +15,14 @@
 * Return: Always 0
 >>>>>>> 8cc1cabe55448f952769eb41bf61eb26148f02e2
 */
+=======
+
+/**
+ * print_all - prints anything
+ * @format: list of types of arguments passed to the function
+ * @...: other variables
+ */
+>>>>>>> b55796704233a86fec32aba79a0bba1f4514e203
 void print_all(const char * const format, ...)
 {
 	int i = 0;
@@ -55,6 +64,7 @@ void print_all(const char * const format, ...)
 
 	printf("\n");
 	va_end(list);
+<<<<<<< HEAD
 }
 
 <<<<<<< HEAD
@@ -138,3 +148,7 @@ va_end(virt);
 
 }
 >>>>>>> 8cc1cabe55448f952769eb41bf61eb26148f02e2
+=======
+}
+
+>>>>>>> b55796704233a86fec32aba79a0bba1f4514e203
