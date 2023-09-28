@@ -3,8 +3,6 @@
 /**
 * free_listint - frees a listint_t list.
 * @head: pointer to the first element in the list
-*
-* Return: zero
 */
 void free_listint(listint_t *head)
 {
@@ -12,8 +10,8 @@ void free_listint(listint_t *head)
 
 	while(head)
 	{
-	temp = head->next;
-	free(head);
-	head = temp;
+		temp = head->next;
+		free(head);
+		head = temp;
 	}
 }

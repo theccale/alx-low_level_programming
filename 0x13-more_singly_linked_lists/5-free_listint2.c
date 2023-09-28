@@ -3,9 +3,6 @@
 /**
  * free_listint2 - frees a listint_t list and sets the head to NULL
  * @head: pointer to the first element in the list
- * @n: data to insert in the new element
- *
- * Return: the address of the new element, or NULL if it failed
  */
 void free_listint2(listint_t **head)
 {
