@@ -2,9 +2,10 @@
 #include <unistd.h>
 
 /**
- * _putchar - writes the character c to std * @c: The character to print
+ * _putchar - writes the character c to std 
+ * @c: The character to print
  * Return : on success 1
- * otherwise 0
+ * otherwise on error, 
  */
 int _putchar (char c)
 {
