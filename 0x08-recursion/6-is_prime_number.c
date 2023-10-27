@@ -21,9 +21,11 @@ int prime_number(int n, int i)
 /**
   * is_prime_number - checks if the number is a prime number
   * @n: the number to check
-  * Return: 1 if n is a prime, else return 0 otherwise.
+  * Return: 1 if n is a prime, else return 0.
   */
 int is_prime_number(int n)
 {
-	return (checker(2, n));
+	if (n <= 1)
+		return (0);
+	return (prime_number(n + 1, n));
 }
