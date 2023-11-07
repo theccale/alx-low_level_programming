@@ -9,13 +9,14 @@
 * @argv: array of Arguments
 *
 * Return: 0 followed by a new line if nonumber is passed,
-* Error if one of the number passed contains symbols, 
+* Error if one of the number passed contains symbols,
 * follwed by a newline, then 1
 */
 
 int main(int argc, char *argv[])
 {
 	int my_sum = 0;
+
 	if (argc == 1)
 	{
 		printf("0\n");
@@ -26,12 +27,12 @@ int main(int argc, char *argv[])
 		for (int j = 0; argv[j][i] != '\0'; j++)
 		{
 		if (argv[i][j] < '0' || argv [i][j] > '9')
-		{	printf ("Error\n");
+		{printf ("Error\n");
 			return (1);
 	}
 }
 	sum += atoi(argv[i]);
 	}
-	 printf ("%d\n", my_sum);
-                        return (0);
-}
+	printf("%d\n", my_sum);
+	return (0);
+
