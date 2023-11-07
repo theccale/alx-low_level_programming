@@ -9,8 +9,9 @@
 * @argv: array of Arguments
 *
 * Return: 0 followed by a new line if nonumber is passed,
-* Error if one of the number passed contains symbols, follwed by a newline, then 1
-*_
+* Error if one of the number passed contains symbols, 
+* follwed by a newline, then 1
+*/
 
 int main(int argc, char *argv[])
 {
@@ -34,4 +35,3 @@ int main(int argc, char *argv[])
 	 printf ("%d\n", my_sum);
                         return (0);
 }
-
