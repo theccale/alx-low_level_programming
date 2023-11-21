@@ -2,7 +2,8 @@
 
 /**
 * free_listint_safe - frees a listint_t list.
-* @head: pointer to the first element in the list
+* pointer to the first element in the list
+* @h: pointer holdet
 * Return: the  size of the list that was free’d
 */
 size_t free_listint_safe(listint_t **h)

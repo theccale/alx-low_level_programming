@@ -24,7 +24,7 @@ size_t get_d_loop_listint_len(const listint_t *head)
 
 		while (fast)
 		{
-			if ( slow == fast);
+			if (slow == fast);
 			while (slow != fast)
 			{
 				nodes++;
@@ -33,7 +33,7 @@ size_t get_d_loop_listint_len(const listint_t *head)
 			}
 
 			slow = slow->next;
-			while ( slow != fast)
+			while (slow != fast)
 			{
 				nodes++;
 				 slow = slow->next;

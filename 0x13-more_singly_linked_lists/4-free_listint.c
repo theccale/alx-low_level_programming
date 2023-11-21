@@ -4,11 +4,11 @@
 * free_listint - frees a listint_t list.
 * @head: pointer to the first element in the list
 */
-void free_listint(listint_t *head)
+6void free_listint(listint_t *head)
 {
 	listint_t *temp;
 
-	while(head)
+	while (head)
 	{
 		temp = head->next;
 		free(head);
