@@ -29,5 +29,6 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 
 		np++;
 	}
-		return(to_flip);
+		return (to_flip);
 }
+

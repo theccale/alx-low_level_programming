@@ -3,7 +3,7 @@
 
 /**
 * print_binary - prints the binary representation of a number
-* @n - long integer
+* @n:unsigned long integer.
 * Return:the converted number, or 0
 * if there is one or more chars in the string b
 * that is not 0 or 1 b is NULL
@@ -22,15 +22,15 @@ size_sz = sizeof(n) * 8 - 1;
 
 	flag = 0;
 
-	while (size_sz >= 0)
+		while (size_sz >= 0)
 	{
-		d = (n >> size_sz) & 1;
+		d = (n >> size_sz) &1;
 
 		if (flag == 1)
 			putchar(d + '0');
 		else
 		{
-			if (d == 1)
+				if (d == 1)
 			{
 				 putchar(d + '0');
 				 flag = 1;
@@ -38,16 +38,13 @@ size_sz = sizeof(n) * 8 - 1;
 			}
 		}
 		size_sz -= 1;
-	}
+	
 }
 
- 
 
 
 
-
-
-
+.
 
 
 
