@@ -41,8 +41,7 @@ size_sz = sizeof(n) * 8 - 1;
 	}
 }
 
-
-
+ 
 
 
 
