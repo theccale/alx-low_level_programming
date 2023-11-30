@@ -30,7 +30,7 @@ size_sz = sizeof(n) * 8 - 1;
 			putchar(d + '0');
 		else
 		{
-				if (d == 1)
+		if (d == 1)
 			{
 				 putchar(d + '0');
 				 flag = 1;
@@ -38,7 +38,6 @@ size_sz = sizeof(n) * 8 - 1;
 			}
 		}
 		size_sz -= 1;
-	
 }
 
 
