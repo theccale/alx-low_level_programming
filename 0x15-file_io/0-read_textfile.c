@@ -46,7 +46,8 @@ ssize_t read_textfile(const char *filename, size_t letters)
 			{
 				free(to_print);
 				return (0);
-			} to_wt = close(file);
+			} 
+			to_wt = close(file);
 			if (to_wt < 0)
 			{
 				free(to_print);
@@ -55,5 +56,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 			free(to_print);
 			return (to_rd);
 }
-,
+
+
 

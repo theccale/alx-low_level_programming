@@ -22,7 +22,7 @@ int create_file(const char *filename, char *text_content)
 		close(file);
 		return (1);
 	}
-		for (size = 0; text_content[size] != '\0'; size++) ;
+		for (size = 0; text_content[size] != '\0'; size++);
 
 		to_wt = write(file, text_content, size);
 
@@ -34,5 +34,3 @@ int create_file(const char *filename, char *text_content)
 		close(file);
 		return (1);
 }
-
-
