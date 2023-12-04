@@ -1,6 +1,6 @@
 #include "main.h"
-/*
-*create_file - creates a file
+/**
+* create_file - creates a file
 * @filename: absolute/relative path to a file
 * @text_content: content to write into the file
 * Return: 1 on success, -1 on failure,
@@ -9,7 +9,9 @@
 */
 int create_file(const char *filename, char *text_content)
 {
-	int file, size; ssize_t to_wt;
+	int file;
+	int size;
+	ssize_t to_wt;
 
 	if (filename == NULL)
 		return (-1);

@@ -1,6 +1,6 @@
 #include "main.h"
-/*
-* read_textfile - reads a text file and prints it to standard output
+/**
+* read_textfile - reads a text file and prints it to standard output.
 * @filename: relative or absolute path of the file
 * @letters: number of letters to read and print
 * Return: total number of chars printed or read.
@@ -46,16 +46,21 @@ ssize_t read_textfile(const char *filename, size_t letters)
 			{
 				free(to_print);
 				return (0);
-			} 
+			}
+
 			to_wt = close(file);
+
 			if (to_wt < 0)
 			{
+
 				free(to_print);
 				return (0);
 			}
+
 			free(to_print);
 			return (to_rd);
 }
+
 
 
 

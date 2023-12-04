@@ -2,7 +2,8 @@
 /**
 * from_to - reads from from and writes to copy stops when rd < 0
 * @cpy: struct
-*/ void from_to(copy_struct *cpy)
+*/ 
+void from_to(copy_struct *cpy)
 {
 	cpy->to_rd = 1;
 	while (cpy->to_rd)
@@ -32,7 +33,10 @@ void file_copy(copy_struct *cpy)
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", cpy->from);
 		exit(98);
 	}
-	cpy->to_file = open(cpy->to, O_CREAT | O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH);
+
+	open(cpy->to, O_CREAT | O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH) = abc;
+	cpy->to_file = abc;
+
 	if (cpy->to_file < 0)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", cpy->to);
